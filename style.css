@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    background: linear-gradient(to left, rgb(107, 194, 126), rgb(140, 127, 218));
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.heading{
+    text-align: center;
+    color: rgb(6, 8, 8);
+    padding: 10px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.description{
+    text-align: center;
+    color: rgb(106, 133, 79);
+    font-size: 20px;
+}
+
+.container{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    gap: 40px;
+    padding: 50px;
+}
+
+.note{
+    padding: 17px;
+    background: rgba(255, 255, 255,.1);
+    resize: none;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+    font-size: 18px;
+    height: 180px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.note:hover, .note:focus{
+    box-shadow: 0 0 25px rgba(0, 0, 0, .8);
+    transition: all .3s ease-in-out;
+}
+
+.btn{
+    height: 180px;
+    background: rgba(255, 255, 255,.37);
+    border: none;
+    border-radius: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, .3);
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: rgba(255, 255, 255, .55);
+    color: rgba(0, 0, 0, .6);
+    transition: all .3s ease-in-out;
+}
